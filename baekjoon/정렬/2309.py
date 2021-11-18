@@ -16,3 +16,6 @@ for p in perm:
         for a in p:
             print(a)
         break
+
+
+
