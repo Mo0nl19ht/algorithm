@@ -1,7 +1,53 @@
+### 배열 속 원소 갯수
+```
+list.count(1    ) 
+```
+### 아스킷코드 변환
+```
+a=ord(A) # 문자 -> 아스킷 
+chr(a) # 아스킷 -> 문자
+```
+## 출력
+### 정수배열 고대로 출력
+```
+#given
+arr = [1,2,3,4]
+
+#when
+print(*arr)
+
+#then
+1 2 3 4
+```
+### 문자열 거꾸로 만들기
+```
+#given
+arr = "ABCD"
+
+#when
+1. arr.reverse()
+2. inverse = arr[::-1]
+
+#then
+"DBCA"
+```
+### 입력
+```
+#given
+1 2 3 4 5 6 이 들어올때
+
+#when
+N, *arr = map(int, input().split())
+
+#then
+N == 1
+arr == [2,3,4,5,6]
+```
 ### 정렬
 ```
 new.sort(key=lambda x: len(x))
 이렇게 하면 new가 직접 바뀜
+내림차순 하고 싶으면 -len(x) 하면 됨
 ```
 
 ### strip 
