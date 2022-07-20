@@ -1,3 +1,7 @@
+### Deque
+```
+deque.rotate(-1) 음수이면 왼쪽으로 회전
+```
 ### Counter
 ```
 from collections import Counter
@@ -92,7 +96,7 @@ a - b
 from itertools import combinations_with_replacement
 ```
 
-### 우선순위 큐 - 오름차순
+### 힙큐 - 오름차순
 
 ```
 import heapq
