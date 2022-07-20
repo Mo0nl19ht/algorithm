@@ -1,6 +1,16 @@
+### Counter
+```
+from collections import Counter
+
+Counter(arr) 값, 빈도 딕셔너리
+
+Counter('hello world').most_common() # [('l', 3), ('o', 2) ](값,빈도) 튜플 내림차순
+
+Counter(arr).most_common(2) 가장 숫자가 많은 2개의 값들 
+```
 ### 배열 속 원소 갯수
 ```
-list.count(1    ) 
+list.count(1) 
 ```
 ### 아스킷코드 변환
 ```
