@@ -1,3 +1,34 @@
+## Deque
+```
+deque.extend(arr) //오른쪽으로 확장됨
+deque.extendleft(arr) //왼쪽
+deque.rotate(-1) 음수이면 왼쪽으로 회전
+deque.reverse() //반전
+insert, remove 사용 가능
+```
+### deque를 이용한 stack
+오른쪽 끝에서 넣고 뺀다
+```
+from collections import deque
+stk = deque()
+
+# 삽입
+stk.append(1)
+# 빼기
+stk.pop()
+```
+### deque를 이용한 que
+왼쪽에서 넣고
+오른쪽 끝에서 뺀다
+```
+from collections import deque
+q = deque()
+
+# 삽입
+q.appendleft(1)
+# 빼기
+q.pop()
+```
 ### 이진탐색
 ```
 arr = [3, 12, 29, 38, 40, 57, 61, 74, 85]
@@ -6,10 +37,6 @@ print(bisect(arr,k))
 k가 arr안에 있으면 그 자리의 오른쪽 index를 반환한다
 그래서 k가 있는 index의 반환을 원한다면 -1를 해줘야 한다
 
-```
-### Deque
-```
-deque.rotate(-1) 음수이면 왼쪽으로 회전
 ```
 ### Counter
 ```
@@ -75,7 +102,7 @@ new.sort(key=lambda x: len(x))
 
 ### strip 
 ```
-strip("})하면 2개 지워진다
+strip("}")하면 2개 지워진다
 ```
 ## 집합 연산
 
