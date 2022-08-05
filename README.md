@@ -1,4 +1,6 @@
 ## Deque
+배열에서 앞에 숫자 더이상 안보고 그 다음부터 볼 때는
+Queue사용하는게 시간상 유리할 때도 있다
 ```
 deque.extend(arr) //오른쪽으로 확장됨
 deque.extendleft(arr) //왼쪽
